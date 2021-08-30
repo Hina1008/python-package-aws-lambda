@@ -26,9 +26,11 @@ https://brew.sh/index_ja
 ターミナル上で、`docker --version`を実行し、Dockerのバージョンを確認する。
 
 # 使い方
+## git cloneでローカルに持ってくる
 ```
 git clone https://github.com/Hina1008/python-package-aws-lambda
 ```
+
 
 
 
