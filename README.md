@@ -26,6 +26,15 @@ https://brew.sh/index_ja
 ターミナル上で、`docker --version`を実行し、Dockerのバージョンを確認する。
 
 # 使い方
+# **docker hub**から**amazonlinux**のイメージを持ってくる
+```
+docker pull amazonlinux:2
+docker images
+-------------------------------------------------------------
+REPOSITORY      TAG      IMAGE ID         CREATED       SIZE
+amazonlinux      2      xxxxxxxxx     x seconds ago    163MB
+-------------------------------------------------------------
+```
 ## git cloneでローカルに持ってくる
 ```
 git clone https://github.com/Hina1008/python-package-aws-lambda
