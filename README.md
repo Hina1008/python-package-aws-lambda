@@ -35,6 +35,7 @@ docker --version
 
 # 使い方
 # 1.**docker hub**から**amazonlinux**のイメージを持ってくる
+[AWS Lambdaランタイム](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/lambda-runtimes.html)\
 [amazonlinux](https://hub.docker.com/_/amazonlinux?tab=tags&page=1&ordering=last_updated)
 ```
 docker pull amazonlinux:2
