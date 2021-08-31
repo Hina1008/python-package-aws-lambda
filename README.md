@@ -27,6 +27,7 @@ https://brew.sh/index_ja
 
 # 使い方
 # **docker hub**から**amazonlinux**のイメージを持ってくる
+https://hub.docker.com/_/amazonlinux?tab=tags&page=1&ordering=last_updated
 ```
 docker pull amazonlinux:2
 docker images
@@ -38,6 +39,16 @@ amazonlinux      2      xxxxxxxxx     x seconds ago    163MB
 ## git cloneでローカルに持ってくる
 ```
 git clone https://github.com/Hina1008/python-package-aws-lambda
+```
+## ディレクトリ構造
+```
+python-package-aws-lambda
+├── Dockerfile
+├── README.md
+├── deploy
+│   ├── python
+│   └── requirements.txt
+└── docker-compose.yml
 ```
 
 
