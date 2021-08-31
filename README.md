@@ -18,21 +18,31 @@ https://tech-lab.sios.jp/archives/18811
 
 **Homebrew**と**docker**が用意されてない場合は、以下を参考として、インストールを行う。
 
-### [Homebrew](https://brew.sh/index_ja)
+### Homebrew
 以下のURLからインストールする\
 https://brew.sh/index_ja
 ### Docker
-`brew install --cask docker`をターミナル上で実行する。
-インストール完了後、アプリを起動。\
-⇨リソース（ メモリやストレージなど ）の割り当て設定を確認、調整を行う
-ターミナル上で、`docker --version`を実行し、Dockerのバージョンを確認する。
+dockerのインストール
+```
+brew install --cask docker
+```
+インストール完了後、アプリを起動.\
+⇨リソース（ メモリやストレージなど ）の割り当て設定を確認、調整を行う\
+バージョンの確認.
+```
+docker --version
+```
 
 # 使い方
 # 1.**docker hub**から**amazonlinux**のイメージを持ってくる
 [amazonlinux](https://hub.docker.com/_/amazonlinux?tab=tags&page=1&ordering=last_updated)
 ```
 docker pull amazonlinux:2
+```
+```
 docker images
+```
+```
 -------------------------------------------------------------
 REPOSITORY      TAG      IMAGE ID         CREATED       SIZE
 amazonlinux      2      xxxxxxxxx     x seconds ago    163MB
@@ -53,11 +63,10 @@ python-package-aws-lambda
 └── docker-compose.yml
 ```
 ## 3.requirements.txtにインストールしたいライブラリ名を記述
-requirements.txt
+requirements.txt(デフォルトでboto3のみを記述している.)
 ```
 boto3
 ```
-デフォルトでboto3がrequirements.txtに書かれている\
 例1:requirements.txt
 ```
 boto3
@@ -75,8 +84,17 @@ docker-compose up --build
 ```
 ## 5.python以下をzipで圧縮を行う
 ```
+cd deploy
+```
+**python/** 以下のパッケージを圧縮する.
+```
 zip -r file.zip python/
+```
+zipファイルの中身を確認
+```
 unzip -t file.zip
+```
+```
 -----------------------------------------
 Archive:  file.zip
     testing: python/                  OK
