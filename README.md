@@ -1,4 +1,4 @@
-# aws　lambdaを使うための、環境作り
+# AWS Lambdaを使うための、環境作り
 aws lambdaに必要なパッケージを入れるためのDocker環境作り\
 パッケージの中には(**Pillow**, **mecab**等)、OS依存のパッケージがある。\
 
