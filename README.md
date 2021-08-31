@@ -1,6 +1,7 @@
 # AWS Lambdaを使うための 環境作り
-aws lambdaに必要なパッケージを入れるためのDocker環境作り\
+aws lambdaでOS依存のパッケージを使うための環境作り\
 パッケージの中には(**Pillow**, **mecab**等)、OS依存のパッケージがある。\
+それらを、AWS LambdaのLayerにdeployすることを目標とする。
 
 
 # 実行環境
