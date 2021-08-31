@@ -5,7 +5,6 @@ aws lambdaでOS依存のパッケージを使うための環境作り\
 
 
 # 実行環境
-以下の環境を使用
 ## Windows (OS: Windows10)
 - wsl2: Ubuntu-20.04
 - docker desktop
