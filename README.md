@@ -65,18 +65,18 @@ python-package-aws-lambda
 ## 3.requirements.txtにインストールしたいライブラリ名を記述
 requirements.txt(デフォルトでboto3のみを記述している.)
 ```
-boto3
+boto3==1.18.32
 ```
 例1:requirements.txt
 ```
-boto3
-mecab-python3
-ipadic
+boto3==1.18.32
+mecab-python3==version
+ipadic==version
 ```
 例2:requirements.txt
 ```
-boto3
-Pillow
+boto3==1.18.32
+Pillow==version
 ```
 ## 4.dockerを立ち上げて実行
 ```
