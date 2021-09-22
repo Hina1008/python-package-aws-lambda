@@ -128,7 +128,7 @@ Pillow==version
 ```
 docker-compose up --build
 ```
-# 5.python以下をzipで圧縮を行う(アプリで圧縮する場合は、スキップ)
+# 5.python以下をzipで圧縮を行う(アプリで圧縮する場合は、６へ)
 
 deployディレクトリへ移動する.
 ```
