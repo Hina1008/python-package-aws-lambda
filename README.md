@@ -1,4 +1,4 @@
-# AWS Lambdaを使うための 環境作り
+# AWS Lambdaを使うための環境作り(OS依存のパッケージをLayerに追加する)
 aws lambdaでOS依存のパッケージを使うための環境作り\
 パッケージの中には(**Pillow**, **mecab**等)、OS依存のパッケージがある。\
 それらを、AWS LambdaのLayerにdeployすることを目標とする。
