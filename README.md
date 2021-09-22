@@ -1,7 +1,8 @@
-# AWS Lambdaを使うための環境作り(OS依存のパッケージをLayerに追加する)
+# AWS Lambdaを使うための環境作り 
+
 aws lambdaでOS依存のパッケージを使うための環境作り\
-パッケージの中には(**Pillow**, **mecab**等)、OS依存のパッケージがある。\
-それらを、AWS LambdaのLayerにdeployすることを目標とする。
+パッケージの中には(**Pillow**, **mecab**等)、OS依存のパッケージがある.\
+それらを、AWS LambdaのLayerにdeployすることを目標とする.
 
 # 目次
 - 実行環境
@@ -24,7 +25,7 @@ aws lambdaでOS依存のパッケージを使うための環境作り\
 - zip(ソフト(アプリ)でも可能)
 
 ### WSL2,Docker
-**WSL2**と**Docker**が用意されていない場合は、以下のURLを参考にして、インストールを行う。\
+**WSL2**と**Docker**が用意されていない場合は、以下のURLを参考にして、インストールを行う.\
 https://tech-lab.sios.jp/archives/18811
 
 ### zip
@@ -53,7 +54,7 @@ https://tech-lab.sios.jp/archives/18811
 - docker
 - zip(ソフト(アプリ)でも可能)
 
-**Homebrew**と**docker**が用意されてない場合は、以下を参考として、インストールを行う。
+**Homebrew**と**docker**が用意されてない場合は、以下を参考として、インストールを行う.
 
 ### Homebrew
 ターミナルで以下のコマンドを実行
