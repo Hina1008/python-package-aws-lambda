@@ -56,8 +56,16 @@ https://tech-lab.sios.jp/archives/18811
 **Homebrew**と**docker**が用意されてない場合は、以下を参考として、インストールを行う。
 
 ### Homebrew
-以下のURLからインストールする\
+ターミナルで以下のコマンドを実行
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+```==> Installation successful!```
+と出力されれば、インストール完了
+
+#### brewについては以下のURLを参照\
 https://brew.sh/index_ja
+
 ### Docker
 dockerのインストール
 ```
