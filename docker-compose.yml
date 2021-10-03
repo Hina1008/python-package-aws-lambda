@@ -5,4 +5,4 @@ services:
     volumes:
       - './deploy:/home/deploy'
     working_dir: '/home/deploy'
-    command: python3 -m pip install -r requirements.txt -t python/
+    command: pip3.8 install -r requirements.txt -t python/
